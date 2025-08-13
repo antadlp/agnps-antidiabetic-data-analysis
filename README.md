@@ -12,6 +12,9 @@ This project requires the following Python libraries:
 - pandas
 - scipy
 - seaborn
+- mpl_toolkits
+- scikit-learn
+- scikitplot
 
 ## Installation
 
@@ -53,8 +56,28 @@ jupyter notebook "Correlation network analysis.ipynb"
 
 ## Notes
 
-- The final figure in the manuscript was manually edited to remove specific connections between the features.
 - All analyses were performed in Python 3.11.
+
+## Citation
+
+If you use this repository or its results in your work, please cite the following manuscript:
+
+```bibtex
+@article{VeraPineda2025,
+  title        = {Argovit™ Silver Nanoparticles as a Potent and Multifunctional Alternative to Conventional Antidiabetic Therapies},
+  author       = {Vera Pineda, Victoria and Alvarez de la Paz, Antonio and Bogdanchikova, Nina and Pestrykov, Alexey and Acevedo Fernández, Juan José and Segura Campos, Maira Rubi},
+  journal      = {To be updated},
+  year         = {2025},
+  note         = {Manuscript in preparation},
+  affiliation  = {1 Facultad de Ingeniería Química, Universidad Autónoma de Yucatán, Mérida, México; 
+                   2 Instituto de Investigaciones en Materiales, Universidad Nacional Autónoma de México, México D.F., México; 
+                   3 Centro de Nanociencias y Nanotecnología, Universidad Nacional Autónoma de México, Ensenada, BC, México; 
+                   4 Research School of Chemistry \& Applied Biomedical Sciences, Tomsk Polytechnic University, Tomsk, Russia; 
+                   5 Facultad de Medicina, Universidad Autónoma del Estado de Morelos, Cuernavaca, Morelos, México; 
+                   6 Facultad de Ingeniería Química, Universidad Autónoma de Yucatán, Mérida, México},
+  orcid        = {0000-0002-9511-5673, 0000-0001-7316-4186, 0000-0003-0929-3535, 0000-0002-9034-4733, 0000-0001-8306-1690, 0000-0002-7664-6647}
+}
+```
 
 ---
 © 2025 Authors of the manuscript. Licensed for academic and research use.
